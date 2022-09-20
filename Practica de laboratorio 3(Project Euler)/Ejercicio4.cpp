@@ -12,11 +12,11 @@ bool palindromo(int n){
         invert = invert*10+resto;
     }
     if(invert==n){
-        isPal = true;
-        return isPal;
+        //isPal = true;
+        return true;
     }else{
-        isPal = false;
-        return isPal;
+        //isPal = false;
+        return false;
     }
 }
 
